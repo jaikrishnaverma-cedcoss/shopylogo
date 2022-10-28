@@ -1,0 +1,210 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  text-align: center;
+}
+.row{
+  display: flex;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.flexAIC{
+  align-items: center;
+}
+.flexJCC{
+  justify-content: center;
+}
+.flexSB{
+  justify-content: space-between;
+}
+.flexSA{
+  justify-content: space-around;
+}
+.w100{
+  width: 100%;
+}
+.w95{
+  width: 95%;
+}
+.hp2{
+  padding: 1.2% 2.5%;
+}
+.logo{
+  width: 40px;
+}
+.c1{
+  background-color: rgb(116, 116, 196);
+}
+.c2{
+  background-color: rgb(236, 157, 157);
+}
+.spanbtn i{
+  font-size: 25px;
+}
+.spanbtn{
+  font-size: .98rem;
+  font-weight: 900;
+  color: rgb(68, 67, 67);
+}
+.btn{
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  margin: 0% 4%;
+  padding: 2% 4%;
+  font-size: .98rem;
+  font-weight: 900;
+  border: 2px solid transparent;
+  color: #5c6ac4;
+  outline: 2px solid white;
+}
+.outline{
+  outline: 2px solid#5c6ac4;
+}
+.footer .btn{
+  padding: 1% 2%;
+  background-color: #5c6ac4;
+  color: white;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  background: white;
+}
+.nav{
+  position: absolute;
+  top: 0;
+}
+.bar{
+ margin-top: 73px;
+}
+.w5{
+  background-color: #232740;
+width: 5%;
+color: white;
+}
+.w22{
+background-color: rgb(255, 255, 255);
+width: 22%;
+box-shadow: rgb(0 0 0 / 15%) 7.4px 3.4px 18.2px
+}
+.w73{
+  width: 73%;
+}
+.w5 .navbox i{
+  font-size: 26px;
+}
+.w5 .navbox span{
+  font-size: 16px;
+  margin: 6px 2px;
+}
+.w5 .navbox{
+  width: 90%;
+  padding: 15% 5%;
+}
+.w5 .navbox:hover{
+  background-color: rgb(190, 190, 190);
+}
+.w22 label{
+  width: 90%;
+  text-align: left;
+  padding: 5px;
+  font-size: 22px;
+}
+.w22 input{
+  width: 80%;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 4px;
+  font-size: 20px;
+  padding:15px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.pic{
+  position: relative;
+  width: 355px;
+  height: 400px;
+  background-color: rgb(255, 98, 98);
+}
+.pic img{
+  width: inherit;
+  width: inherit;
+  background: transparent;
+}
+.write h3{
+font-size: 35px;
+}
+.write p{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.firsth1{
+  padding: 16px 0;
+  color: #212b36;
+  font-size: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 200;
+  font-family: "Shopify Sans Web", Roboto, "Segoe UI", "Helvetica Neue", sans-serif;
+
+}
+.firsth2{
+  padding-bottom: 24px;
+  margin: 0;
+  letter-spacing: 0px;
+    color: #8b8f94;
+    font-size: 1.85714rem;
+    line-height: 2rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Shopify Sans Web", Roboto, "Segoe UI", "Helvetica Neue", sans-serif;
+}
+.w80{
+  width: 80%;
+}
+.w70{
+  width: 70%;
+}
+.card{
+  width: 22.5%;
+  height: 500;
+  background-color: #e5e7f7;
+  border-radius: 8px;
+  border:1px solid grey;
+  margin:10px
+}
+.card img{
+  border-radius: 8px;
+
+}
+.card:hover {
+    transform:\scale(1.05);
+}
+
+.name{
+  background-color: white;
+  min-height: 70px;
+  border-radius: 0px 0px 8px 8px;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.scroller{
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+.name p{
+  font-size: 20px;
+}
+.wrapbox{
+  width: 74%;
+}
+.borderDiv{
+  border: 2px solid #5c6ac4
+}
