@@ -177,16 +177,34 @@ font-size: 35px;
   background-color: #e5e7f7;
   border-radius: 8px;
   border:1px solid grey;
-  margin:10px
+  margin:10px;
+  position:relative
 }
 .card img{
   border-radius: 8px;
 
 }
 .card:hover {
-    transform:\scale(1.05);
+    transform:\scale(1.05); 
+    .editbtn{
+      display: block;
+    }
 }
-
+.cardopt{
+  width: 22.5%;
+  height: 500;
+  /* background-color: #e5e7f7; */
+  border-radius: 8px;
+  border:1px solid grey;
+  margin:10px;
+  padding:2%
+}
+.cardopt:hover {
+  transform:\scale(1.02);
+}
+.cardopt i{
+  font-size: 30px;
+}
 .name{
   background-color: white;
   min-height: 70px;
@@ -208,3 +226,105 @@ font-size: 35px;
 .borderDiv{
   border: 2px solid #5c6ac4
 }
+.w50{
+  width: 50%;
+font-size: 20px;
+}
+.w50 p{
+  margin-left: 15px;
+  justify-content: flex-start;
+}
+.round {
+  position: relative;
+}
+.round input{
+  margin-right: 18px;
+}
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  /* top: 0; */
+  width: 28px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #5c6ac4;
+  border-color: #5c6ac4;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+.xo .pic{
+  width:100%;
+  height:250px;
+  border-radius:6px
+}
+.xo .pic img{
+  border-radius: 4px;
+   height: 60%;
+    width: auto 
+}
+.editbtn{
+  width: 80%;
+  position: absolute;
+  bottom: 30px;
+  padding: 14px 10px;
+  color: white;
+  background-color: #5c6ac4;
+  outline: #5c6ac4;
+  display: none
+}
+.carder{
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.w46{
+  width: 46%;
+}
+.details h2{
+
+  margin: 8px;
+}
+.w46 p{
+  font-size: 15px;
+  color: grey;
+  margin: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

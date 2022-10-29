@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const First = () => {
     let arr = [{ img: "page1.svg", head: "Fashion" }
@@ -10,6 +10,9 @@ const First = () => {
         , { img: "page7.svg", head: "Tech" }
         , { img: "page8.svg", head: "Art and photos" }]
         // borderDiv
+useEffect(()=>{
+document.getElementById("def0").classList.add("borderDiv")
+},[])
     const clicked=(data,e)=>{
 let parent=e.target.parentNode.parentNode.children
 for(let i=0;i<parent.length;i++)
@@ -24,8 +27,8 @@ e.target.closest(".xfactor").classList.add("borderDiv")
                 <p className='firsth1'>Choose your business space</p>
                 <p className='firsth2'>This helps us create better designs</p>
                 <div className="row wrapbox flexSB wrap">
-                    { arr.map((x) => {
-                            return <div className="col card xfactor" onClick={(e)=>clicked(x,e)}>
+                    { arr.map((x,i) => {
+                            return <div className="col card xfactor" id={"def"+i} onClick={(e)=>clicked(x,e)}>
                                 <img src={x.img} alt="" />
                                 <div className="name row flexJCC flexAIC w100">
                                     <p>{x.head}</p>

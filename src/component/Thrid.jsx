@@ -9,12 +9,12 @@ const Thrid = () => {
                 <div className="col w22 flexAIC " style={{boxShadow:"none",width:"50%"}}>
           <div className="col w100 flexAIC" style={{ marginTop: "25px" }}>
             <label htmlFor="" >Business name (optional)</label>
-            <input type="text" className="headInput" style={{width:"85%"}} />
+            <input type="text" defaultValue="Seeker" className="headInput" style={{width:"85%"}} />
           </div>
 
           <div className="col w100 flexAIC" style={{ marginTop: "25px" }}>
             <label htmlFor="" >Slogan (optional)</label>
-            <input type="text" className="headInput"  style={{width:"85%"}} />
+            <input type="text" className="headInput" defaultValue="I am the best"  style={{width:"85%"}} />
           </div>
         </div>
 </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Second = () => {
     let arr = [
@@ -19,13 +19,17 @@ const Second = () => {
         }
         e.target.closest(".xfactor").classList.add("borderDiv")
                 }
+
+                useEffect(()=>{
+                    document.getElementById("def0").classList.add("borderDiv")
+                    },[])         
   return (
     <>
     <div className="col w100 flexAIC scroller" style={{ minHeight: "73.8vh" }}>
                 <p className='firsth1'>Choose your visual style</p>
                 <div className="row wrapbox flexSB wrap">
-                    { arr.map((x) => {
-                            return <div className="col card xfactor" onClick={(e)=>clicked(x,e)}>
+                    { arr.map((x,i) => {
+                            return <div className="col card xfactor" id={"def"+i} onClick={(e)=>clicked(x,e)}>
                                 <img src={x.img} alt="" />
                                 <div className="name row flexJCC flexAIC w100">
                                     <p>{x.head}</p>
